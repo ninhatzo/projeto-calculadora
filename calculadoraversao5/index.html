@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Estruturada Versão 5</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>
+            Calculadora - Programação Estruturada
+        </h1>
+
+        <form action="src/php/processa.php" id="calForm" method="post" onsubmit="return validaForm()">
+            <div class="field">
+                <label for="valor1">Valor 1</label>
+                <!-- Autocomplete para evitar sugestões do navegador -->
+                <input type="text" id="valor1" name="valor1" required autocomplete="off">
+            </div>
+
+            <div class="field">
+                <label for="valor2">Valor 2</label>
+                <input type="text" id="valor2" name="valor2" required autocomplete="off">
+            </div>
+
+            <div class="field">
+                <label for="operacao">Operação</label>
+                <select name="operacao" id="operacao">
+                    <option value="somar">Somar</option>
+                    <option value="subtrair">Subtrair</option>
+                    <option value="multiplicar">Multiplicar</option>
+                    <option value="dividir">Dividir</option>
+                </select>
+            </div>
+
+            <div class="actions">
+                <button type="submit">Calcular</button>
+                <button type="reset">Limpar</button>
+            </div>
+            
+        </form>
+
+        <footer>
+            <p>Enviar os valores e a operação para o "processa.php" que processará a função correspondente.</p>
+        </footer>
+    </main>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
