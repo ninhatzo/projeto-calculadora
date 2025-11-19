@@ -14,7 +14,7 @@ final class Subtracao implements IOperacao {
 
     public function getNum2(): float {
         return $this->num2;
-    }
+    } 
 
     public function setNum2(float $num2): void {
         $this->num2 = $num2;

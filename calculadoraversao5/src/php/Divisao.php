@@ -11,7 +11,7 @@ final class Divisao implements IOperacao {
     public function setNum1(float $num1): void {
         $this->num1 = $num1;
     }
-
+ 
     public function getNum2(): float {
         return $this->num2;
     }

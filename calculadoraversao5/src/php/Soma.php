@@ -12,7 +12,7 @@
         // e retornar seu valor para quem estiver solicitando
         public function getNum1(): float {
             return $this->num1;
-        }
+        } 
 
         // Método que permite receber valor para que seja
         // armamento no atributo $num1

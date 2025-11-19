@@ -44,7 +44,7 @@
                     $soma->setNum2($val2);
                     $result = $soma->calcula();
 
-                break;
+                break; 
                 case 'subtrair':
                     $subtracao = new Subtracao();
                     $subtracao->setNum1($val1);

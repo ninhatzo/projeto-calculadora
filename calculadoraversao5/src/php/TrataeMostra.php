@@ -17,7 +17,7 @@
 
                     switch($oper) {
                         case 'somar':
-                          echo '+';
+                          echo '+'; 
                         break;
                         case 'subtrair':
                             echo '-';

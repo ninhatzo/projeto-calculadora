@@ -7,4 +7,4 @@
         public function setNum2(float $num2): void;
         public function calcula(): float;
     }
-?>
+?> 
