@@ -1,4 +1,4 @@
 <?php
-    header('Location: src/php/view/index.html');
+    header('Location: view/index.html');
     exit;
 ?>
