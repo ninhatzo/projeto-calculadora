@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>Fábrica de Carros</title>
+</head>
+<body>
+
+    <div class="menu-container">
+        <h1>Fábrica de Carros</h1>
+        <p>Escolha uma ação:</p>
+
+        <form id="menuForm" action="../Controller/processa.php" method="post">
+            <button type="submit" name="acao" value="fabricarCarro">Fabricar Carro</button>
+            <button type="submit" name="acao" value="venderCarro">Vender Carro</button>
+            <button type="submit" name="acao" value="visualizarEstoque">Visualizar Estoque</button>
+            <button type="submit" name="acao" value="encerrarSessao">Encerrar Sessão</button>
+        </form>
+    </div>
+    
+    <script src="../src/js/script.js"></script>
+</body>
+</html>
